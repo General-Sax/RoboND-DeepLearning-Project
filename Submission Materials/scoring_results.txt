@@ -1,0 +1,59 @@
+# First Train
+
+Scores for while the quad is following behind the target:
+number of validation samples intersection over the union evaluated on 542
+average intersection over union for background is 0.9955025222097581
+average intersection over union for other people is 0.35207941638414414
+average intersection over union for the hero is 0.8674404636204325
+number true positives: 539, number false positives: 0, number false negatives: 0
+
+Scores for while the quad is on patrol and the target is not visible:
+number of validation samples intersection over the union evaluated on 270
+average intersection over union for background is 0.9865284098816506
+average intersection over union for other people is 0.7243768584016291
+average intersection over union for the hero is 0.0
+number true positives: 0, number false positives: 15, number false negatives: 0
+
+This score measures how well the neural network can detect the target from far away:
+number of validation samples intersection over the union evaluated on 322
+average intersection over union for background is 0.9965624788465456
+average intersection over union for other people is 0.4406291040784623
+average intersection over union for the hero is 0.2257456143442584
+number true positives: 136, number false positives: 0, number false negatives: 165
+
+weight: 0.7894736842105263
+
+final_IoU: 0.5465930389823455
+
+final_score: 0.4315208202492201
+
+
+
+# Second Train
+
+Scores for while the quad is following behind the target:
+number of validation samples intersection over the union evaluated on 542
+average intersection over union for background is 0.9951238947544851
+average intersection over union for other people is 0.359012553689975
+average intersection over union for the hero is 0.8968369439393451
+number true positives: 539, number false positives: 0, number false negatives: 0
+
+Scores for while the quad is on patrol and the target is not visible:
+number of validation samples intersection over the union evaluated on 270
+average intersection over union for background is 0.9882957603877837
+average intersection over union for other people is 0.7774235931534899
+average intersection over union for the hero is 0.0
+number true positives: 0, number false positives: 17, number false negatives: 0
+
+This score measures how well the neural network can detect the target from far away:
+number of validation samples intersection over the union evaluated on 322
+average intersection over union for background is 0.9967083059506834
+average intersection over union for other people is 0.4368954989903192
+average intersection over union for the hero is 0.19988871011180728
+number true positives: 110, number false positives: 1, number false negatives: 191
+
+weight: 0.7564102564102564
+
+final_IoU: 0.5483628270255761
+
+final_score: 0.41478726659626913
